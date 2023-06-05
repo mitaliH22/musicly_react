@@ -18,10 +18,9 @@ function Playlist() {
             console.log(e);
           }
         }
-
         fetchPlaylist();
       }
-    },[])
+    },[token])
 
   return (
     <Layout>

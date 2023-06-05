@@ -2,8 +2,6 @@ import React , {useEffect , useState} from 'react'
 import Layout from './Layout'
 import { getCurrentUserProfile } from "../assets/spotify";
 import { Title } from '../Components/Styled';
-import { Menu } from '../Components/SideBar/SideBar';
-
 
 function User(props) {
     const [profile, setProfile] = useState("");
@@ -21,7 +19,7 @@ function User(props) {
           };
           fetchData();
         }
-        },[])
+        },[token])
   return (
     <Layout>
       <div className="user-profile">
