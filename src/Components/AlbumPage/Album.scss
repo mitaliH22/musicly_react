@@ -1,0 +1,11 @@
+.album-card{
+    flex: 1;
+    &:hover{
+       
+    }
+    img{
+        width: 160px;
+        height: 160px;
+        border-radius: 8px;
+    }
+}

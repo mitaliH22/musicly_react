@@ -1,0 +1,42 @@
+.trends-page{
+  .songs{
+    height: 600px;
+    overflow-y: scroll;
+  }
+}
+.songs{
+    overflow-y: scroll;
+    height: 230px;
+    overflow-x: hidden;
+    tbody{
+  color: white;
+  background: rgb(35,59,182);
+background: radial-gradient(circle, rgba(35,59,182,1) 0%, rgba(115,30,47,1) 100%);
+  overflow: scroll;
+  height: 100px;
+}
+tr{
+    display: grid;
+    grid-template-columns: 6rem 40rem 20rem 9rem;
+    padding: 10px 0;
+    border: 1px solid black;
+}
+}
+.songs::-webkit-scrollbar-track , .playlist-container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: rgb(73, 1, 13);
+}
+
+.songs::-webkit-scrollbar, .playlist-container::-webkit-scrollbar
+{
+	width: 20px;
+	background-color: rgb(73, 1, 13);
+}
+
+.songs::-webkit-scrollbar-thumb, .playlist-container::-webkit-scrollbar-thumb
+{
+	background-color: rgb(255, 0, 55);	
+	background-image: radial-gradient(circle, rgb(176, 186, 235) 0%, rgb(197, 105, 123) 100%);
+
+}

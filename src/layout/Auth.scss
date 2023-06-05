@@ -1,0 +1,29 @@
+.login-wrapper{
+    height: 100vh;
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .login-container {
+    margin: 0 auto;
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    
+    h3 {
+        margin: 25px auto;
+        font-size: 30px;
+        text-transform: uppercase; 
+    }
+    a{
+        font-size: 25px;
+        border: 1px solid #703a3a;
+        padding: 5px 30px;
+        &:hover{
+             background: #433e3e;
+        }
+    }
+}
+
+}
