@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import PlaylistCard from '../Components/Playlists/PlaylistCard';
 import { Title } from '../Components/Styled'
-import { getPlaylist } from '../spotify';
+import { getPlaylist } from '../assets/spotify';
 import Layout from './Layout'
 
 function Playlist() {

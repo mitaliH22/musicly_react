@@ -1,6 +1,6 @@
 import React , {useEffect , useState} from 'react'
 import Layout from './Layout'
-import { getCurrentUserProfile } from "../spotify";
+import { getCurrentUserProfile } from "../assets/spotify";
 import { Title } from '../Components/Styled';
 import { Menu } from '../Components/SideBar/SideBar';
 

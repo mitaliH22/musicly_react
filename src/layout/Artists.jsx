@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Artist from '../Components/Artists/Artist';
 import { FlexWrapper } from '../Components/Styled';
-import { searchArtist } from '../spotify';
+import { searchArtist } from '../assets/spotify';
 import Layout from './Layout';
 
 function Artists() {

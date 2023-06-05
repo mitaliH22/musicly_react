@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Songs from '../Components/SongList/Songs';
-import { getNewMusic } from '../spotify';
+import { getNewMusic } from '../assets/spotify';
 import Layout from './Layout'
 
 function Trends() {
