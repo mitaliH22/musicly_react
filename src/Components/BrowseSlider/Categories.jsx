@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getCategory } from './spotify';
+import { getCategory } from '../../assets/spotify';
 import { Title } from '../Styled'
 import Slider from './Slider';
 
